@@ -151,8 +151,8 @@ int main() {
 
     auto a_2_1 = A_2{0};
     auto a_2_2 = A_2{1};
-    std::cout << (a_1_1 == a_1_2) << std::endl;
-    std::cout << (a_2_1 == a_2_2) << std::endl;
+    std::cout << (a_1_1 == a_1_2) << std::endl; // 1
+    std::cout << (a_2_1 == a_2_2) << std::endl; // 0
 //    std::cout << (a_1_1 == a_2_1) << std::endl;
 //                        ^^ error: Invalid operands to binary expression ('A_1' and 'A_2')
 }
